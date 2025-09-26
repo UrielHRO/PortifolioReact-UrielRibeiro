@@ -8,9 +8,9 @@ interface ProjectCardProps {
 export default function ProjectCard({ nome, descricao, url, img }: ProjectCardProps) {
   return (
     <div className="rounded-2xl border border-gray-200 dark:border-gray-800 p-6 flex flex-col items-center bg-white dark:bg-gray-900 shadow-lg hover:scale-[1.03] transition-transform">
-      <div className="w-full h-40 bg-gray-100 dark:bg-gray-800 rounded mb-4 flex items-center justify-center">
+      <div className="w-full h-40 bg-gray-100 dark:bg-gray-800 rounded mb-4 flex items-center justify-center overflow-hidden">
         {img ? (
-          <img src={img} alt={nome} className="h-full object-contain" />
+          <img src={img} alt={nome} className="w-full h-full object-cover rounded" style={{objectPosition: 'center'}} />
         ) : (
           <span className="text-gray-400">Imagem do projeto</span>
         )}
