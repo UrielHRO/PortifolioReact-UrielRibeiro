@@ -5,14 +5,14 @@ const projetos = [
     nome: "Página Geradora de Tickets",
     descricao:
       "Aplicação para gerar tickets personalizados para eventos, com design responsivo e fácil de usar.",
-    url: "http://uriel.codingconf2025.tech/",
+    url: "https://github.com/UrielHRO/GeneratorTickets",
   img: "/app/assets/Gerador-Ticket.jpg",
   },
   {
     nome: "Calculadora de Idade",
     descricao:
       "Ferramenta simples e intuitiva para calcular sua idade com base na data de nascimento.",
-    url: "https://calculadorauriel.codingconf2025.tech/",
+    url: "https://github.com/UrielHRO/Calculator-age-app",
   img: "/app/assets/calculadora_idade.jpg",
   },
   {
