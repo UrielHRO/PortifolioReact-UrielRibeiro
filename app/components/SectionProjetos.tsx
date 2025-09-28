@@ -6,28 +6,28 @@ const projetos = [
     descricao:
       "Aplicação para gerar tickets personalizados para eventos, com design responsivo e fácil de usar.",
     url: "https://github.com/UrielHRO/GeneratorTickets",
-  img: "/app/assets/Gerador-Ticket.jpg",
+    img: "/public/assets/Gerador-Ticket.jpg",
   },
   {
     nome: "Calculadora de Idade",
     descricao:
       "Ferramenta simples e intuitiva para calcular sua idade com base na data de nascimento.",
-    url: "https://github.com/UrielHRO/Calculator-age-app",
-  img: "/app/assets/calculadora_idade.jpg",
+      url: "https://github.com/UrielHRO/Calculator-age-app",
+     img: "/public/assets/calculadora_idade.jpg",
   },
   {
     nome: "Web Scraper básico",
     descricao:
       "Script para web scraping básico, extraindo dados de páginas web de forma simples e eficiente.",
     url: "https://github.com/UrielHRO/WebScraperCode",
-  img: "/app/assets/Web_scrapper.jpg",
+    img: "/public/assets/Web_scrapper.jpg",
   },
   {
     nome: "Ferramenta de Criptografia e Descriptografia",
     descricao:
       "Aplicação para criptografar e descriptografar textos, garantindo segurança e praticidade.",
     url: "https://github.com/UrielHRO/CryptoCode",
-  img: "/app/assets/criptografia_image.jpg",
+    img: "/public/assets/criptografia_image.jpg",
   },
 ];
 
